@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
   def index
-    # Messageを全てを取得する。
-    @message = Message.all
+    # Messageを全て取得する。
+    @messages = Message.all
   end
 
   ## ここから追記
